@@ -1,0 +1,47 @@
+
+body {
+    padding: 0; 
+    margin: 0; 
+    background: black;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+    background-image: url("https://static1.colliderimages.com/wordpress/wp-content/uploads/2023/01/john-wick-4-total-film-social-featured.jpg?q=50&fit=contain&w=1140&h=&dpr=1.5");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+form {
+border: 1px solid transparent;
+border-radius: 10px;
+border-image: linear-gradient(to right, #f00, #0f0, #00f) 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+row-gap: 5px;
+width: 200px;
+padding: 5px 10px;
+}
+
+label {
+    margin-right: 10px;
+}
+
+div
+{
+width: 100%;
+padding: 5px; 
+display: flex;
+flex-direction: row;
+justify-content: space-between; 
+border: 1px solid white;
+border-radius: 8px;
+
+}
+button {
+    border-radius: 5px;
+}
